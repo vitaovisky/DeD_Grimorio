@@ -56,37 +56,43 @@ function renderSpells(containerId, spells, isGrimoireTab) {
       : "add-to-grimoire-btn";
 
     card.innerHTML = `
-                    <div class="field"><strong>Fonte:</strong> ${
-                      spell.fonte
-                    }</div>
-                    <h2>${spell.name}</h2>
-                    <div class="field"><strong>Nível:</strong> ${
-                      spell.level
-                    }</div>
-                    <div class="field"><strong>Escola:</strong> ${
-                      spell.school
-                    }</div>
-                    <div class="field"><strong>Tempo de Conjuração:</strong> ${
-                      spell.time
-                    }</div>
-                    <div class="field"><strong>Alcance:</strong> ${
-                      spell.range
-                    }</div>
-                    <div class="field"><strong>Componentes:</strong> ${
-                      spell.components
-                    }</div>
-                    <div class="field"><strong>Duração:</strong> ${
-                      spell.duration
-                    }</div>
-                    <div class="field"><strong>Classes:</strong> <div class="classes">${classTags}</div></div>
-                    <div class="text-section">${spell.text
-                      .map((t) => `<p>${t}</p>`)
-                      .join("")}</div>
-                    <button class="${buttonClass}" data-spell-name="${
+        <div class="field"><strong>Fonte:</strong> ${spell.fonte}</div>
+        <h2>${spell.name}</h2>
+        <div class="field"><strong>Nível:</strong> ${spell.level}</div>
+        <div class="field"><strong>Escola:</strong> ${spell.school}</div>
+        <div class="field"><strong>Duração:</strong> ${spell.duration}</div>
+        <div class="field"><strong>Classes:</strong> <div class="classes">${classTags}</div></div>
+        
+        <div class="details hidden">
+          <div class="field"><strong>Tempo de Conjuração:</strong> ${
+            spell.time
+          }</div>
+          <div class="field"><strong>Alcance:</strong> ${spell.range}</div>
+          <div class="field"><strong>Componentes:</strong> ${
+            spell.components
+          }</div>
+          <div class="text-section">${spell.text
+            .map((t) => `<p>${t}</p>`)
+            .join("")}</div>
+        </div>
+
+        <button class="toggle-details-btn">Ver Mais</button>
+        <button class="${buttonClass}" data-spell-name="${
       spell.name
     }">${buttonText}</button>
-                `;
+    `;
     container.appendChild(card);
+  });
+
+  // Adiciona os event listeners para o novo botão
+  container.querySelectorAll(".toggle-details-btn").forEach((button) => {
+    button.addEventListener("click", (e) => {
+      const details = e.target.closest(".card").querySelector(".details");
+      details.classList.toggle("hidden");
+      e.target.textContent = details.classList.contains("hidden")
+        ? "Ver Mais"
+        : "Ver Menos";
+    });
   });
 
   container.querySelectorAll(".add-to-grimoire-btn").forEach((button) => {
