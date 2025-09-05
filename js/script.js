@@ -109,9 +109,18 @@ function renderSpells(containerId, spells, isGrimoireTab) {
 
 function populateFilters(spells) {
   const sources = [...new Set(spells.map((s) => s.fonte))].sort();
-  const levels = [...new Set(spells.map((s) => s.level))].sort(
-    (a, b) => parseInt(a) - parseInt(b)
-  );
+
+  // 1. Coleta os níveis e os separa
+  const allLevels = [...new Set(spells.map((s) => s.level))];
+  const trickLevel = allLevels.find((level) => level === "Truque"); // Encontra o "Truque"
+  const numericLevels = allLevels.filter((level) => level !== "Truque"); // Filtra os numéricos
+
+  // 2. Ordena os níveis numéricos
+  numericLevels.sort((a, b) => parseInt(a) - parseInt(b));
+
+  // 3. Junta tudo de volta, colocando "Truque" no início se ele existir
+  const levels = trickLevel ? [trickLevel, ...numericLevels] : numericLevels;
+
   const schools = [...new Set(spells.map((s) => s.school))].sort();
   const classes = [
     ...new Set(spells.flatMap((s) => s.classes.map((c) => c.split(" ")[0]))),
@@ -123,6 +132,7 @@ function populateFilters(spells) {
     .join("");
 
   const filterLevel = document.getElementById("filterLevel");
+  // 4. Mapeia a nova lista ordenada para o select
   filterLevel.innerHTML += levels
     .map((level) => `<option value="${level}">${level}</option>`)
     .join("");
@@ -199,6 +209,8 @@ function loadEverything() {
 
     if (now - timestamp < oneWeek) {
       allSpells = spells;
+      // Adicione esta linha para ordenar o array do cache
+      allSpells.sort((a, b) => a.name.localeCompare(b.name));
       console.log("Magias carregadas do cache.");
       return true;
     }
@@ -276,6 +288,9 @@ if (loadEverything()) {
     .then((res) => res.json())
     .then((data) => {
       allSpells = data;
+      // Adicione esta linha para ordenar o array de magias
+      allSpells.sort((a, b) => a.name.localeCompare(b.name));
+
       cacheSpells(data);
       loadGrimoire();
       loadCharacterInfo();
@@ -287,3 +302,7 @@ if (loadEverything()) {
       console.error(err);
     });
 }
+
+document.getElementById("printGrimoireBtn").addEventListener("click", () => {
+  window.print();
+});

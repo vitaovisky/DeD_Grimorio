@@ -2,10 +2,8 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Espirro ácido (Acid Splash)",
-    "id": null,
-    "escola": null,
-    "level": "0",
-    "school": "Conjuraçãoonjuração",
+    "level": "Truque",
+    "school": "Conjuração",
     "time": "Ação",
     "range": "60 pés/18 metros",
     "components": "V, S",
@@ -26,8 +24,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Ajuda (Aid)",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Abjuração",
     "time": "Ação",
@@ -44,8 +40,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Alarme (Alarm)",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Abjuração (Ritual)",
     "time": "1 minuto",
@@ -88,8 +82,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": " Amizade Animal (Animal Friendship)",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Encantamento",
     "time": "Ação",
@@ -106,8 +98,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Mensageiro de animais",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Encantamento",
     "time": "Ação",
@@ -125,8 +115,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Formas de animais",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Transmutação",
     "time": "Ação",
@@ -144,10 +132,8 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Animar Mortos (Animate Dead)",
-    "id": null,
-    "escola": null,
     "level": "3",
-    "school": "Necromanciaecromancia",
+    "school": "Necromancia",
     "time": "1 minuto",
     "range": "10 pés/3 metros",
     "components": "V, S, M (uma gota de sangue, um pedaço de carne e uma punhado de pó de osso)",
@@ -164,8 +150,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Animar Objetos (Animate Objects)",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Transmutação",
     "time": "Ação",
@@ -191,8 +175,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Concha Antilife",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Abjuração",
     "time": "Ação",
@@ -210,8 +192,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Campo Antimagia (Antimagic Field)",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Abjuração",
     "time": "Ação",
@@ -235,8 +215,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Antipatia/Simpatia (Antipathy/Sympathy)",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Encantamento",
     "time": "1 hora",
@@ -256,8 +234,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Olho Arcano",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Adivinhação",
     "time": "Ação",
@@ -280,8 +256,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Portal Arcano",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Conjuração",
     "time": "Ação",
@@ -317,8 +291,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Armadura de Agathys (Armor of Agathys)",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Abjuração",
     "time": "Ação",
@@ -335,8 +307,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Braços de Hadar (Arms of Hadar)",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Conjuração",
     "time": "Ação",
@@ -353,8 +323,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Projeção Astral",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Necromancia",
     "time": "1 hora",
@@ -398,8 +366,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Aura da Vida (Aura of Life)",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Abjuração",
     "time": "Ação",
@@ -415,8 +381,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Aura de Pureza (Aura of Purity)",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Abjuração",
     "time": "Ação",
@@ -432,8 +396,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Aura de Vitalidade (Aura of Vitality)",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Evocação",
     "time": "Ação",
@@ -449,8 +411,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Despertar",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Transmutação",
     "time": "8 horas",
@@ -467,8 +427,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Bane",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Encantamento",
     "time": "Ação",
@@ -485,8 +443,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Golpe de Banimento",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Abjuração",
     "time": "Ação de bônus",
@@ -502,8 +458,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Banimento (Banishment)",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Abjuração",
     "time": "Ação",
@@ -531,8 +485,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Pele de casca",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Transmutação",
     "time": "Ação",
@@ -553,8 +505,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Farol da Esperança",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Abjuração",
     "time": "Ação",
@@ -570,8 +520,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Sentido da fera",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Adivinhação",
     "time": "Ação",
@@ -587,8 +535,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Conceder maldição",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Necromancia",
     "time": "Ação",
@@ -657,9 +603,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Ala de lâminas",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Abjuração",
     "time": "Ação",
     "range": "Pessoal",
@@ -681,8 +625,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Bênção (Bless)",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Encantamento",
     "time": "Ação",
@@ -699,8 +641,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Praga",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Necromancia",
     "time": "Ação",
@@ -727,8 +667,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Golpe cegante",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Evocação",
     "time": "Ação de bônus",
@@ -745,8 +683,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Cegueira/Surdez (Blindness/Deafness)",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Necromancia",
     "time": "Ação",
@@ -818,8 +754,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Marca Smite",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Evocação",
     "time": "Ação de bônus",
@@ -836,8 +770,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Mãos ardentes",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Evocação",
     "time": "Ação",
@@ -861,8 +793,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Convocar Relâmpagos (Call Lightning)",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Conjuração",
     "time": "Ação",
@@ -881,8 +811,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Acalmar emoções (Calm Emotions)",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Encantamento",
     "time": "Ação",
@@ -900,8 +828,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Corrente elétrica",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Evocação",
     "time": "Ação",
@@ -919,8 +845,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Pessoa com charme",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Encantamento",
     "time": "Ação",
@@ -945,9 +869,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Toque frio",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Necromancia",
     "time": "Ação",
     "range": "120 pés/36 metros",
@@ -964,8 +886,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Orbe cromático",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Evocação",
     "time": "Ação",
@@ -982,8 +902,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Círculo da Morte (Circle of Death)",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Necromancia",
     "time": "Ação",
@@ -1000,8 +918,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Círculo de poder (Circle of Power)",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Abjuração",
     "time": "Ação",
@@ -1017,8 +933,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Clarividência (Clairvoyance)",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Adivinhação",
     "time": "10 minutos",
@@ -1042,8 +956,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Clone (Clone)",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Necromancia",
     "time": "1 hora",
@@ -1060,8 +972,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Nuvem de adagas",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Conjuração",
     "time": "Ação",
@@ -1078,8 +988,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Matança na nuvem",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Conjuração",
     "time": "Ação",
@@ -1098,8 +1006,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Spray de cor",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Ilusão",
     "time": "Ação",
@@ -1117,8 +1023,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Comando (Command)",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Encantamento",
     "time": "Ação",
@@ -1147,8 +1051,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Comunhão (Commune)",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Adivinhação",
     "time": "1 minuto",
@@ -1191,8 +1093,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Duelo forçado",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Encantamento",
     "time": "Ação de bônus",
@@ -1209,8 +1109,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Compreender Idiomas (Comprehend Languages)",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Adivinhação",
     "time": "Ação",
@@ -1227,8 +1125,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Compulsão (Compulsion)",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Encantamento",
     "time": "Ação",
@@ -1245,8 +1141,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Cone de Frio (Cone of Cold)",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Evocação",
     "time": "Ação",
@@ -1264,8 +1158,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Confusão (Confusion)",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Encantamento",
     "time": "Ação",
@@ -1297,8 +1189,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Conjurar Animais (Conjure Animals)",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Conjuração",
     "time": "Ação",
@@ -1321,8 +1211,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Conjurar Rajada (Conjure Barrage)",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Conjuração",
     "time": "Ação",
@@ -1338,8 +1226,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Conjurar Celestial (Conjure Celestial)",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Conjuração",
     "time": "1 minuto",
@@ -1357,8 +1243,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Conjurar Elemental (Conjure Elemental)",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Conjuração",
     "time": "1 minuto",
@@ -1377,8 +1261,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Conjurar Fada (Conjure Fey)",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Conjuração",
     "time": "1 minuto",
@@ -1397,8 +1279,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Conjurar Elementais Menores (Conjure Minor Elementals)",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Conjuração",
     "time": "1 minuto",
@@ -1421,8 +1301,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Conjurar Saraivada (Conjure Volley)",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Conjuração",
     "time": "Ação",
@@ -1438,8 +1316,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Conjurar Seres da Floresta (Conjure Woodland Beings)",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Conjuração",
     "time": "Ação",
@@ -1462,9 +1338,9 @@
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Contato Extraplanar (Contact Other Plane)",
     "id": "0878",
-    "escola": "Adivinhação (ritual)",
+    "escola": "Adivinhação (Ritual)",
     "level": "5",
-    "school": "Adivinhação (ritual)",
+    "school": "Adivinhação (Ritual)",
     "time": "1 minuto",
     "range": "Pessoal",
     "components": "V",
@@ -1479,8 +1355,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Contágio",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Necromancia",
     "time": "Ação",
@@ -1509,8 +1383,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Contingência (Contingency)",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Evocação",
     "time": "10 minutos",
@@ -1528,8 +1400,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Chama Contínua (Continual Flame)",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Evocação",
     "time": "Ação",
@@ -1550,8 +1420,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Controlar Água (Control Water)",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Transmutação",
     "time": "Ação",
@@ -1577,8 +1445,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Controlar o clima (Control Weather)",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Transmutação",
     "time": "10 minutos",
@@ -1615,8 +1481,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Cordão de Flechas (Cordon of Arrows)",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Transmutação",
     "time": "Ação",
@@ -1634,8 +1498,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Contrafeitiço (Counterspell)",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Abjuração",
     "time": "1 reação, que você realiza quando vê uma criatura a até 18 metros conjurando uma magia",
@@ -1657,8 +1519,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Criar alimentos e água",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Conjuração",
     "time": "Ação",
@@ -1674,8 +1534,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Criar ou destruir água",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Transmutação",
     "time": "Ação",
@@ -1694,8 +1552,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Criar morto-vivo",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Necromancia",
     "time": "1 minuto",
@@ -1714,8 +1570,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Criação",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Ilusão",
     "time": "1 minuto",
@@ -1740,8 +1594,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Coroa da Loucura (Crown of Madness)",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Encantamento",
     "time": "Ação",
@@ -1766,8 +1618,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Manto do Cruzado",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Evocação",
     "time": "Ação",
@@ -1783,8 +1633,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Curar feridas",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Evocação",
     "time": "Ação",
@@ -1809,9 +1657,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Luzes dançantes",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Evocação",
     "time": "Ação",
     "range": "120 pés/36 metros",
@@ -1834,8 +1680,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Escuridão",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Evocação",
     "time": "Ação",
@@ -1860,8 +1704,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Visão escura",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Transmutação",
     "time": "Ação",
@@ -1877,8 +1719,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Luz do dia",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Evocação",
     "time": "Ação",
@@ -1904,8 +1744,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Ala da Morte",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Abjuração",
     "time": "Ação",
@@ -1927,8 +1765,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Bola de Fogo Controlável (Delayed Blast Fireball)",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Evocação",
     "time": "Ação",
@@ -1948,8 +1784,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Demiplano",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Conjuração",
     "time": "Ação",
@@ -1966,8 +1800,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Onda destrutiva",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Evocação",
     "time": "Ação",
@@ -1983,8 +1815,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Detectar o Bem e Mal (Detect Evil and Good)",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Adivinhação",
     "time": "Ação",
@@ -2000,8 +1830,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Detectar magia",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Adivinhação",
     "time": "Ação",
@@ -2028,8 +1856,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Detectar veneno e doença",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Adivinhação",
     "time": "Ação",
@@ -2046,8 +1872,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Detectar pensamentos",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Adivinhação",
     "time": "Ação",
@@ -2067,8 +1891,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Dimensão da porta",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Conjuração",
     "time": "Ação",
@@ -2093,8 +1915,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Disfarce de si mesmo",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Ilusão",
     "time": "Ação",
@@ -2119,8 +1939,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Desintegrar",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Transmutação",
     "time": "Ação",
@@ -2159,8 +1977,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Dissipar magia",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Abjuração",
     "time": "Ação",
@@ -2190,8 +2006,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Sussurros dissonantes",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Encantamento",
     "time": "Ação",
@@ -2208,8 +2022,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Adivinhação (Divination)",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Adivinhação (Ritual)",
     "time": "Ação (Ritual)",
@@ -2227,8 +2039,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Auxílio Divino (Divine Favor)",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Evocação",
     "time": "Ação de bônus",
@@ -2244,8 +2054,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Verbo Divino",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Evocação",
     "time": "Ação de bônus",
@@ -2293,8 +2101,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Dominar monstro",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Encantamento",
     "time": "Ação",
@@ -2320,8 +2126,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Pessoa dominante",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Encantamento",
     "time": "Ação",
@@ -2350,8 +2154,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Invocação instantânea de Drawmij",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Conjuração",
     "time": "1 minuto",
@@ -2370,8 +2172,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Sonho",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Ilusão",
     "time": "1 minuto",
@@ -2396,9 +2196,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Druidacraft",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Transmutação",
     "time": "Ação",
     "range": "30 pés/9 metros",
@@ -2417,8 +2215,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Terremoto",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Evocação",
     "time": "Ação",
@@ -2439,9 +2235,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Explosão de Eldritch",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Evocação",
     "time": "Ação",
     "range": "120 pés/36 metros",
@@ -2457,8 +2251,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Arma Elemental (Elemental Weapon)",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Transmutação",
     "time": "Ação",
@@ -2499,8 +2291,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Aumentar/Reduzir (Enlarge/Reduce)",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Transmutação",
     "time": "Ação",
@@ -2519,8 +2309,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Ataque de alferes",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Conjuração",
     "time": "Ação de bônus",
@@ -2538,8 +2326,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Constrição (Entangle)",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Conjuração",
     "time": "Ação",
@@ -2557,8 +2343,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Cativar (Enthrall)",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Encantamento",
     "time": "Ação",
@@ -2574,8 +2358,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Etherealness",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Transmutação",
     "time": "Ação",
@@ -2596,8 +2378,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Tentáculos negros de Evard",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Conjuração",
     "time": "Ação",
@@ -2615,8 +2395,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Retirada rápida",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Transmutação",
     "time": "Ação de bônus",
@@ -2632,8 +2410,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Ataque Visual (Eyebite)",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Necromancia",
     "time": "Ação",
@@ -2652,8 +2428,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Fabricar",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Transmutação",
     "time": "10 minutos",
@@ -2671,8 +2445,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Fogo das fadas",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Evocação",
     "time": "Ação",
@@ -2695,8 +2467,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Vida falsa",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Necromancia",
     "time": "Ação",
@@ -2719,8 +2489,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Medo",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Ilusão",
     "time": "Ação",
@@ -2743,8 +2511,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Queda de penas",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Transmutação",
     "time": "1 reação",
@@ -2786,8 +2552,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Fingir a morte",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Necromancia",
     "time": "Ação",
@@ -2804,10 +2568,8 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Convocar Familiar (Find Familiar)",
-    "id": null,
-    "escola": null,
     "level": "1",
-    "school": "Conjuração (ritual)",
+    "school": "Conjuração (Ritual)",
     "time": "1 hora",
     "range": "10 pés/3 metros",
     "components": "V, S, M  (carvão, incenso e ervas no valor de 10 po, que devem ser consumidos pelo fogo em um braseiro de bronze)",
@@ -2826,8 +2588,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Convocar Montaria (Find Steed)",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Conjuração",
     "time": "10 minutos",
@@ -2847,8 +2607,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Localizar o caminho",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Adivinhação",
     "time": "1 minuto",
@@ -2865,8 +2623,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Localizar armadilhas",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Adivinhação",
     "time": "Ação",
@@ -2883,8 +2639,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Dedo da Morte",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Necromancia",
     "time": "Ação",
@@ -2901,9 +2655,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Parafuso de fogo",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Evocação",
     "time": "Ação",
     "range": "120 pés/36 metros",
@@ -2925,8 +2677,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Escudo de fogo",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Evocação",
     "time": "Ação",
@@ -2944,8 +2694,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Tempestade de fogo",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Evocação",
     "time": "Ação",
@@ -2962,8 +2710,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Bola de Fogo (Fireball)",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Evocação",
     "time": "Ação",
@@ -2987,8 +2733,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Lâmina de chama",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Evocação",
     "time": "Ação de bônus",
@@ -3007,8 +2751,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Coluna de Chamas (Flame Strike)",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Evocação",
     "time": "Ação",
@@ -3031,8 +2773,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Esfera flamejante",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Conjuração",
     "time": "Ação",
@@ -3051,8 +2791,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Carne para Pedra (Flesh to Stone)",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Transmutação",
     "time": "Ação",
@@ -3071,8 +2809,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Voar",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Transmutação",
     "time": "Ação",
@@ -3089,8 +2825,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Nuvem de neblina",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Conjuração",
     "time": "Ação",
@@ -3113,8 +2847,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Proibição",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Abjuração",
     "time": "10 minutos",
@@ -3133,8 +2865,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Gaiola de força",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Evocação",
     "time": "Ação",
@@ -3155,8 +2885,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Previsão",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Adivinhação",
     "time": "1 minuto",
@@ -3173,8 +2901,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Liberdade de movimento",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Abjuração",
     "time": "Ação",
@@ -3204,9 +2930,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Amizade (Friends)",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Encantamento",
     "time": "Ação",
     "range": "Pessoal",
@@ -3228,8 +2952,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Forma gasosa",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Transmutação",
     "time": "Ação",
@@ -3253,8 +2975,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Portão",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Conjuração",
     "time": "Ação",
@@ -3273,8 +2993,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Geas",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Encantamento",
     "time": "1 minuto",
@@ -3301,8 +3019,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Repouso suave",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Necromancia",
     "time": "Ação",
@@ -3319,8 +3035,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Inseto gigante",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Transmutação",
     "time": "Ação",
@@ -3339,8 +3053,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Glibness",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Transmutação",
     "time": "Ação",
@@ -3356,8 +3068,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Globo da Invulnerabilidade",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Abjuração",
     "time": "Ação",
@@ -3375,8 +3085,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Glifo de proteção",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Abjuração",
     "time": "1 hora",
@@ -3405,8 +3113,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Bom Fruto (Goodberry)",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Transmutação",
     "time": "Ação",
@@ -3423,8 +3129,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Videira de agarrar",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Conjuração",
     "time": "1 bonus action",
@@ -3441,8 +3145,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Área Escorregadia (Grease)",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Conjuração",
     "time": "Ação",
@@ -3483,8 +3185,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Maior restauração",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Abjuração",
     "time": "Ação",
@@ -3504,8 +3204,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Guardião da fé",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Conjuração",
     "time": "Ação",
@@ -3528,8 +3226,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Guardas e vigias",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Abjuração",
     "time": "10 minutos",
@@ -3557,9 +3253,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Orientação",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Adivinhação",
     "time": "Ação",
     "range": "Toque",
@@ -3592,8 +3286,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Rajada de vento",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Evocação",
     "time": "Ação",
@@ -3618,8 +3310,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Hail of Thorns",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Conjuração",
     "time": "Ação de bônus",
@@ -3636,8 +3326,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Consagrar (Hallow)",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Evocação",
     "time": "24 horas",
@@ -3665,8 +3353,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Terreno alucinante",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Ilusão",
     "time": "10 minutos",
@@ -3690,8 +3376,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Prejuízo",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Necromancia",
     "time": "Ação",
@@ -3707,8 +3391,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Pressa",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Transmutação",
     "time": "Ação",
@@ -3731,8 +3413,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Curar",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Evocação",
     "time": "Ação",
@@ -3749,8 +3429,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Palavra de cura",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Evocação",
     "time": "Ação de bônus",
@@ -3767,8 +3445,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Metal térmico",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Transmutação",
     "time": "Ação",
@@ -3804,8 +3480,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Banquete Heróis (Heroes' Feast)",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Conjuração",
     "time": "10 minutos",
@@ -3822,8 +3496,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Heroísmo",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Encantamento",
     "time": "Ação",
@@ -3860,8 +3532,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Segurar monstro",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Encantamento",
     "time": "Ação",
@@ -3886,8 +3556,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Manter pessoa",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Encantamento",
     "time": "Ação",
@@ -3914,8 +3582,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Aura sagrada (Holy Aura)",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Abjuração",
     "time": "Ação",
@@ -3931,8 +3597,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Fome de Hadar",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Conjuração",
     "time": "Ação",
@@ -3949,8 +3613,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Marca do caçador",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Adivinhação",
     "time": "Ação de bônus",
@@ -3967,8 +3629,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Padrão hipnótico",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Ilusão",
     "time": "Ação",
@@ -3991,8 +3651,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Tempestade de gelo",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Evocação",
     "time": "Ação",
@@ -4018,8 +3676,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Identificar",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Adivinhação",
     "time": "1 minuto",
@@ -4036,8 +3692,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Script ilusório",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Ilusão",
     "time": "1 minuto",
@@ -4056,8 +3710,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Aprisionamento (Imprisonment) ",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Abjuração",
     "time": "1 minuto",
@@ -4087,8 +3739,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Nuvem incendiária",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Conjuração",
     "time": "Ação",
@@ -4106,8 +3756,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Infligir ferimentos",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Necromancia",
     "time": "Ação",
@@ -4124,8 +3772,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Praga de insetos",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Conjuração",
     "time": "Ação",
@@ -4153,8 +3799,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Invisibilidade",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Ilusão",
     "time": "Ação",
@@ -4196,8 +3840,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Arrombar (Knock)",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Transmutação",
     "time": "Ação",
@@ -4240,8 +3882,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Arca Secreta de Leomund (Leomund's Secret Chest)",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Conjuração",
     "time": "Ação",
@@ -4259,8 +3899,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Cabana minúscula de Leomund",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Evocação",
     "time": "1 minuto",
@@ -4278,8 +3916,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Restauração menor",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Abjuração",
     "time": "Ação",
@@ -4304,8 +3940,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Levitar",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Transmutação",
     "time": "Ação",
@@ -4325,7 +3959,7 @@
     "name": "Luz",
     "id": "2523",
     "escola": "Evocação",
-    "level": "0",
+    "level": "Truque",
     "school": "Evocação",
     "time": "Ação",
     "range": "Toque",
@@ -4348,8 +3982,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Flecha de raio",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Transmutação",
     "time": "Ação de bônus",
@@ -4368,8 +4000,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Raio de luz",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Evocação",
     "time": "Ação",
@@ -4392,8 +4022,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Localizar animais ou plantas",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Adivinhação",
     "time": "Ação",
@@ -4409,8 +4037,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Localizar criatura",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Adivinhação",
     "time": "Ação",
@@ -4436,8 +4062,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Localizar objeto",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Adivinhação",
     "time": "Ação",
@@ -4462,8 +4086,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Longstrider",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Transmutação",
     "time": "Ação",
@@ -4480,8 +4102,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Armadura Arcana (Mage Armor)",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Abjuração",
     "time": "Ação",
@@ -4497,9 +4117,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Mão de mago",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Conjuração",
     "time": "Ação",
     "range": "30 pés/9 metros",
@@ -4524,8 +4142,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Círculo Mágico (Magic Circle)",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Abjuração",
     "time": "1 minuto",
@@ -4554,8 +4170,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Jarra mágica",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Necromancia",
     "time": "1 minuto",
@@ -4577,8 +4191,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Míssil mágico",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Evocação",
     "time": "Ação",
@@ -4600,10 +4212,8 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Boca Encantada (Magic Mouth)",
-    "id": null,
-    "escola": null,
     "level": "2",
-    "school": "Ilusão (ritual)",
+    "school": "Ilusão (Ritual)",
     "time": "1 minuto",
     "range": "30 pés/9 metros",
     "components": "V, S, M (um pedaço de favo de mel e pó de jade valendo, no mínimo, 10 po, consumidos pela magia)",
@@ -4619,8 +4229,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Arma mágica (Magic Weapon)",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Transmutação",
     "time": "Ação de bônus",
@@ -4643,8 +4251,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Imagem principal",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Ilusão",
     "time": "Ação",
@@ -4669,8 +4275,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Cura em massa de ferimentos",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Evocação",
     "time": "Ação",
@@ -4687,8 +4291,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Cura em massa",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Evocação",
     "time": "Ação",
@@ -4704,8 +4306,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Palavra de Cura em Massa",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Evocação",
     "time": "Ação de bônus",
@@ -4722,8 +4322,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Sugestão de massa",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Encantamento",
     "time": "Ação",
@@ -4749,8 +4347,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Labirinto",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Conjuração",
     "time": "Ação",
@@ -4768,8 +4364,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Fusão em pedra",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Transmutação",
     "time": "Ação",
@@ -4787,8 +4381,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Flecha ácida de Melf",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Evocação",
     "time": "Ação",
@@ -4805,9 +4397,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Concertar (Mending)",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Transmutação",
     "time": "1 minuto",
     "range": "Toque",
@@ -4823,9 +4413,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Mensagem",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Transmutação",
     "time": "Ação",
     "range": "120 pés/36 metros",
@@ -4848,8 +4436,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Chuva de Meteoros (Meteor Swarm)",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Evocação",
     "time": "Ação",
@@ -4866,8 +4452,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Mente em branco",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Abjuração",
     "time": "Ação",
@@ -4885,7 +4469,7 @@
     "name": "Ilusão menor",
     "id": "2823",
     "escola": "I",
-    "level": "0",
+    "level": "Truque",
     "school": "Ilusão",
     "time": "Ação",
     "range": "30 pés/9 metros",
@@ -4910,8 +4494,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Miragem Arcana",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Ilusão",
     "time": "10 minutos",
@@ -4930,8 +4512,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Imagem espelhada",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Ilusão",
     "time": "Ação",
@@ -4958,8 +4538,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Enganar",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Ilusão",
     "time": "Ação",
@@ -4976,8 +4554,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Passo Misty",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Conjuração",
     "time": "Ação de bônus",
@@ -5000,8 +4576,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Modificar memória",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Encantamento",
     "time": "Ação",
@@ -5027,8 +4601,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Raio de lua",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Evocação",
     "time": "Ação",
@@ -5048,8 +4620,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "O Cão Fiel de Mordenkainen (Mordenkainen's Faithful Hound)",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Conjuração",
     "time": "Ação",
@@ -5067,8 +4637,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "A magnífica mansão de Mordenkainen",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Conjuração",
     "time": "1 minuto",
@@ -5086,8 +4654,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Santuário particular de Mordenkainen",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Abjuração",
     "time": "10 minutos",
@@ -5112,8 +4678,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Espada de Mordenkainen",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Evocação",
     "time": "Ação",
@@ -5130,8 +4694,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Mover a Terra",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Transmutação",
     "time": "Ação",
@@ -5151,8 +4713,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Não detecção",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Abjuração",
     "time": "Ação",
@@ -5174,8 +4734,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Aura Mágica de Nystul (Nystul's Magic Aura)",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Ilusão",
     "time": "Ação",
@@ -5194,8 +4752,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Esfera congelante de Otiluke",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Evocação",
     "time": "Ação",
@@ -5214,8 +4770,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Esfera resiliente de Otiluke",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Evocação",
     "time": "Ação",
@@ -5234,8 +4788,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Dança Irresistível de Otto",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Encantamento",
     "time": "Ação",
@@ -5252,8 +4804,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Passar sem deixar rastros",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Abjuração",
     "time": "Ação",
@@ -5274,8 +4824,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Senha",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Transmutação",
     "time": "Ação",
@@ -5292,8 +4840,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Força fantasmagórica",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Ilusão",
     "time": "Ação",
@@ -5320,8 +4866,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Assassino fantasmagórico",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Ilusão",
     "time": "Ação",
@@ -5338,8 +4882,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Corcel Fantasma",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Ilusão",
     "time": "1 minuto",
@@ -5356,8 +4898,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Aliado Planar (Planar Ally)",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Conjuração",
     "time": "10 minutos",
@@ -5378,8 +4918,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Âncora Planar (Planar Binding)",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Abjuração",
     "time": "1 hora",
@@ -5397,8 +4935,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Deslocamento de avião",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Conjuração",
     "time": "Ação",
@@ -5416,8 +4952,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Ampliar Plantas (Plant Growth)",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Transmutação",
     "time": "Ação ou 8 horas",
@@ -5443,9 +4977,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Spray de veneno",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Conjuração",
     "time": "Ação",
     "range": "10 pés/3 metros",
@@ -5461,8 +4993,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Polimorfo",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Transmutação",
     "time": "Ação",
@@ -5482,8 +5012,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Palavra de poder Heal",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Evocação",
     "time": "Ação",
@@ -5499,8 +5027,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Power Word Kill",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Encantamento",
     "time": "Ação",
@@ -5522,8 +5048,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Palavra de poder Atordoar",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Encantamento",
     "time": "Ação",
@@ -5546,8 +5070,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Oração de Cura",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Evocação",
     "time": "10 minutos",
@@ -5564,9 +5086,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Prestidigitação",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Transmutação",
     "time": "Ação",
     "range": "10 pés/3 metros",
@@ -5596,8 +5116,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Spray prismático",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Evocação",
     "time": "Ação",
@@ -5621,8 +5139,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Parede prismática",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Abjuração",
     "time": "Ação",
@@ -5648,9 +5164,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Produzir chama",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Conjuração",
     "time": "Ação",
     "range": "Pessoal",
@@ -5667,8 +5181,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Ilusão programada",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Ilusão",
     "time": "Ação",
@@ -5687,8 +5199,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Imagem do projeto",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Ilusão",
     "time": "Ação",
@@ -5707,8 +5217,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Proteção contra energia",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Abjuração",
     "time": "Ação",
@@ -5735,8 +5243,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Proteção contra o mal e o bem",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Abjuração",
     "time": "Ação",
@@ -5760,8 +5266,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Proteção contra veneno",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Abjuração",
     "time": "Ação",
@@ -5778,8 +5282,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Purificar alimentos e bebidas",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Transmutação",
     "time": "Ação",
@@ -5795,8 +5297,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Raise Dead",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Necromancia",
     "time": "1 hora",
@@ -5815,8 +5315,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Vínculo telepático de Rary",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Adivinhação",
     "time": "Ação",
@@ -5833,8 +5331,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Raio de enfraquecimento",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Necromancia",
     "time": "Ação",
@@ -5851,9 +5347,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Raio de gelo",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Evocação",
     "time": "Ação",
     "range": "60 pés/18 metros",
@@ -5875,8 +5369,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Raio de doença",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Necromancia",
     "time": "Ação",
@@ -5911,8 +5403,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Reencarnação",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Transmutação",
     "time": "1 hora",
@@ -5968,9 +5458,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Resistência",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Abjuração",
     "time": "Ação",
     "range": "Toque",
@@ -5985,8 +5473,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Ressurreição",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Necromancia",
     "time": "1 hora",
@@ -6006,8 +5492,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Gravidade reversa",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Transmutação",
     "time": "Ação",
@@ -6025,8 +5509,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Revivificar",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Necromancia",
     "time": "Ação",
@@ -6042,8 +5524,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Truque da corda",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Transmutação",
     "time": "Ação",
@@ -6062,9 +5542,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Chama Sagrada (Sacred Flame)",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Evocação",
     "time": "Ação",
     "range": "60 pés/18 metros",
@@ -6080,8 +5558,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Santuário",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Abjuração",
     "time": "Ação de bônus",
@@ -6098,8 +5574,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Raio abrasador",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Evocação",
     "time": "Ação",
@@ -6123,8 +5597,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Cristalocação",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Adivinhação",
     "time": "10 minutos",
@@ -6162,8 +5634,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Golpe abrasador",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Evocação",
     "time": "Ação de bônus",
@@ -6180,8 +5650,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Consulte Invisibilidade",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Adivinhação",
     "time": "Ação",
@@ -6223,8 +5691,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Enviando",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Evocação",
     "time": "Ação",
@@ -6246,8 +5712,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Sequestrador",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Transmutação",
     "time": "Ação",
@@ -6287,8 +5751,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Quebra",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Evocação",
     "time": "Ação",
@@ -6313,8 +5775,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Escudo",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Abjuração",
     "time": "1 reação",
@@ -6330,8 +5790,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Escudo da fé",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Abjuração",
     "time": "Ação de bônus",
@@ -6347,9 +5805,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Bordão Místico (Shillelagh)",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Transmutação",
     "time": "Ação de bônus",
     "range": "Toque",
@@ -6364,9 +5820,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Agarrar chocante",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Evocação",
     "time": "Ação",
     "range": "Toque",
@@ -6411,8 +5865,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Imagem silenciosa",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Ilusão",
     "time": "Ação",
@@ -6450,8 +5902,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Dormir",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Encantamento",
     "time": "Ação",
@@ -6476,8 +5926,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Tempestade de granizo",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Conjuração",
     "time": "Ação",
@@ -6501,8 +5949,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Lento",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Transmutação",
     "time": "Ação",
@@ -6521,9 +5967,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Poupe os moribundos",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Necromancia",
     "time": "Ação",
     "range": "Toque",
@@ -6538,8 +5982,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Fale com os animais",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Adivinhação",
     "time": "Ação",
@@ -6561,8 +6003,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Falar com os mortos",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Necromancia",
     "time": "Ação",
@@ -6584,8 +6024,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Fale com as plantas",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Transmutação",
     "time": "Ação",
@@ -6605,8 +6043,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Escalada de aranha",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Transmutação",
     "time": "Ação",
@@ -6630,8 +6066,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Crescimento do pico",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Transmutação",
     "time": "Ação",
@@ -6654,8 +6088,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Guardiões espirituais",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Conjuração",
     "time": "Ação",
@@ -6673,8 +6105,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Arma Espiritual (Spiritual Weapon)",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Evocação",
     "time": "Ação de bônus",
@@ -6693,8 +6123,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Golpe impressionante",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Evocação",
     "time": "Ação de bônus",
@@ -6710,8 +6138,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Nuvem fétida",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Conjuração",
     "time": "Ação",
@@ -6736,8 +6162,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Forma da pedra",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Transmutação",
     "time": "Ação",
@@ -6760,8 +6184,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Pele de pedra",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Abjuração",
     "time": "Ação",
@@ -6787,8 +6209,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Tempestade de vingança",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Conjuração",
     "time": "Ação",
@@ -6809,8 +6229,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Sugestão",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Encantamento",
     "time": "Ação",
@@ -6836,8 +6254,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Raio de sol",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Evocação",
     "time": "Ação",
@@ -6855,8 +6271,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Raio de sol",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Evocação",
     "time": "Ação",
@@ -6874,8 +6288,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Aljava Veloz (Swift Quiver)",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Transmutação",
     "time": "Ação Bônus",
@@ -6892,8 +6304,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Símbolo",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Abjuração",
     "time": "1 minuto",
@@ -6944,8 +6354,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Telecinesia",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Transmutação",
     "time": "Ação",
@@ -6966,8 +6374,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Telepatia",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Evocação",
     "time": "Ação",
@@ -6984,8 +6390,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Teletransporte",
-    "id": null,
-    "escola": null,
     "level": "7",
     "school": "Conjuração",
     "time": "Ação",
@@ -7016,8 +6420,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Círculo de Teletransporte (Teleportation Circle)",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Conjuração",
     "time": "1 minuto",
@@ -7035,8 +6437,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Disco flutuante de Tenser",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Conjuração",
     "time": "Ação",
@@ -7054,9 +6454,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Taumaturgia",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Transmutação",
     "time": "Ação",
     "range": "30 pés/9 metros",
@@ -7078,9 +6476,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Chicote de Espinhos (Thorn Whip)",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Transmutação",
     "time": "Ação",
     "range": "30 pés/9 metros",
@@ -7096,8 +6492,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Golpe Trovejante",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Evocação",
     "time": "Ação de bônus",
@@ -7113,8 +6507,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Thunderwave",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Evocação",
     "time": "Ação",
@@ -7139,8 +6531,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Parada de tempo",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Transmutação",
     "time": "Ação",
@@ -7157,8 +6547,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Línguas",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Adivinhação",
     "time": "Ação",
@@ -7174,8 +6562,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Transporte via plantas",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Conjuração",
     "time": "Ação",
@@ -7191,8 +6577,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Caminhar em Árvores (Tree Stride)",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Conjuração",
     "time": "Ação",
@@ -7215,8 +6599,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Polimorfo verdadeiro",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Transmutação",
     "time": "Ação",
@@ -7240,8 +6622,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Verdadeira ressurreição",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Necromancia",
     "time": "1 hora",
@@ -7259,8 +6639,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "True Seeing",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Adivinhação",
     "time": "Ação",
@@ -7276,9 +6654,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Ataque Certeiro (True Strike)",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Adivinhação",
     "time": "Ação",
     "range": "30 pés/9 metros",
@@ -7300,8 +6676,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Tsunami",
-    "id": null,
-    "escola": null,
     "level": "8",
     "school": "Conjuração",
     "time": "1 minuto",
@@ -7320,8 +6694,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Servo invisível",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Conjuração",
     "time": "Ação",
@@ -7339,8 +6711,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Toque vampírico",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Necromancia",
     "time": "Ação",
@@ -7357,9 +6727,7 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Zombaria cruel",
-    "id": null,
-    "escola": null,
-    "level": "0",
+    "level": "Truque",
     "school": "Encantamento",
     "time": "Ação",
     "range": "60 pés/18 metros",
@@ -7375,8 +6743,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Muro de fogo",
-    "id": null,
-    "escola": null,
     "level": "4",
     "school": "Evocação",
     "time": "Ação",
@@ -7402,8 +6768,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Muro de força",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Evocação",
     "time": "Ação",
@@ -7420,8 +6784,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Parede de gelo",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Evocação",
     "time": "Ação",
@@ -7440,8 +6802,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Muro de pedra",
-    "id": null,
-    "escola": null,
     "level": "5",
     "school": "Evocação",
     "time": "Ação",
@@ -7469,8 +6829,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Muro de espinhos",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Conjuração",
     "time": "Ação",
@@ -7489,8 +6847,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Vínculo de proteção",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Abjuração",
     "time": "Ação",
@@ -7507,8 +6863,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Respiração na água",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Transmutação",
     "time": "Ação",
@@ -7531,8 +6885,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Andar na água (Water Walk)",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Transmutação (Ritual)",
     "time": "Ação (Ritual)",
@@ -7557,8 +6909,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Web",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Conjuração",
     "time": "Ação",
@@ -7578,8 +6928,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Estranho",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Ilusão",
     "time": "Ação",
@@ -7595,8 +6943,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Caminhar no Vento (Wind Walk)",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Transmutação",
     "time": "1 minuto",
@@ -7613,8 +6959,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Parede de vento",
-    "id": null,
-    "escola": null,
     "level": "3",
     "school": "Evocação",
     "time": "Ação",
@@ -7632,8 +6976,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Desejo",
-    "id": null,
-    "escola": null,
     "level": "9",
     "school": "Conjuração",
     "time": "Ação",
@@ -7657,8 +6999,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Parafuso da Bruxa",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Evocação",
     "time": "Ação",
@@ -7680,8 +7020,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Palavra de recordação",
-    "id": null,
-    "escola": null,
     "level": "6",
     "school": "Conjuração",
     "time": "Ação",
@@ -7698,8 +7036,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Golpe irado",
-    "id": null,
-    "escola": null,
     "level": "1",
     "school": "Evocação",
     "time": "Ação de bônus",
@@ -7715,8 +7051,6 @@
   {
     "fonte": "PHB 2014 (Livro do Jogador 2014)",
     "name": "Zona da verdade",
-    "id": null,
-    "escola": null,
     "level": "2",
     "school": "Encantamento",
     "time": "Ação",
