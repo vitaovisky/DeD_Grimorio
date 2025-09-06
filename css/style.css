@@ -27,7 +27,7 @@ h1 {
 
 .nivel-nome {
   display: flex;
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   align-items: center;
 }
 
@@ -39,23 +39,12 @@ h1 {
   background-color: #2980b9;
 }
 
+.nome-classes,
+.tempo-conjuracao,
+.alcance,
+.duration,
 .escola {
-  font-size: 0.7rem;
-}
-.duration {
-  font-size: 0.6rem;
-}
-
-.nome-classes {
-  font-size: 0.6rem;
-}
-
-.tempo-conjuracao {
-  font-size: 0.6rem;
-}
-
-.alcance {
-  font-size: 0.6rem;
+  font-size: 0.9rem;
 }
 
 .tabs {
