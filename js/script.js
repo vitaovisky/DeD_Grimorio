@@ -56,12 +56,16 @@ function renderSpells(containerId, spells, isGrimoireTab) {
       : "add-to-grimoire-btn";
 
     card.innerHTML = `
-        <div class="field"><strong>Fonte:</strong> ${spell.fonte}</div>
-        <h2>${spell.name}</h2>
-        <div class="field"><strong>Nível:</strong> ${spell.level}</div>
-        <div class="field"><strong>Escola:</strong> ${spell.school}</div>
-        <div class="field"><strong>Duração:</strong> ${spell.duration}</div>
-        <div class="field"><strong>Classes:</strong> <div class="classes">${classTags}</div></div>
+        <div class="field fonte"><strong>Fonte:</strong> ${spell.fonte}</div>
+        <h2 class="nome">${spell.name}</h2>
+        <div class="field nivel-nome"><strong>Nível:</strong> <div class="nivel">${
+          spell.level
+        }</div></div>
+        <div class="field escola"><strong>Escola:</strong> ${spell.school}</div>
+        <div class="field duration"><strong>Duração:</strong> ${
+          spell.duration
+        }</div>
+        <div class="field nome-classes"><strong>Classes:</strong> <div class="classes">${classTags}</div></div>
         
         <div class="details hidden">
           <div class="field"><strong>Tempo de Conjuração:</strong> ${
