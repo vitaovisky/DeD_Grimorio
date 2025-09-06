@@ -50,6 +50,14 @@ h1 {
   font-size: 0.6rem;
 }
 
+.tempo-conjuracao {
+  font-size: 0.6rem;
+}
+
+.alcance {
+  font-size: 0.6rem;
+}
+
 .tabs {
   display: flex;
   justify-content: center;
