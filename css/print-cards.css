@@ -1,0 +1,150 @@
+/* print-cards.css */
+
+@media print {
+  /* Estilos gerais para a página de impressão */
+  body {
+    font-family: "Times New Roman", serif; /* Fonte clássica de D&D */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background-color: #fff;
+  }
+
+  .print-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Cabeçalho do grimório */
+  .print-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #555;
+  }
+
+  .print-title {
+    font-size: 3em; /* Tamanho do título "Grimório" */
+    margin-bottom: 10px;
+    color: #222;
+  }
+
+  .character-print-info {
+    display: flex; /* Para alinhar as informações do personagem */
+    justify-content: center;
+    gap: 20px; /* Espaço entre as informações */
+    font-size: 1.1em;
+    margin-top: 15px;
+  }
+
+  .character-print-info p {
+    margin: 0;
+  }
+
+  /* Layout da grade de cartas */
+  .print-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cartas por linha */
+    gap: 20px; /* Espaçamento entre as cartas */
+  }
+
+  /* Estilo individual da carta de magia */
+  .print-spell-card {
+    border: 1px solid #555; /* Borda da carta */
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fffefb; /* Cor de papel envelhecido */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    page-break-inside: avoid; /* Evita quebra de página dentro da carta */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Empurra o botão ou a seção para baixo */
+    min-height: 250px; /* Altura mínima para a carta */
+    position: relative;
+  }
+
+  .print-spell-card h2 {
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #444;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+  }
+
+  .print-spell-card .field {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+  }
+
+  .print-spell-card .field strong {
+    color: #222;
+  }
+
+  .print-spell-card .classes {
+    margin-top: 10px;
+    margin-bottom: 10px; /* Espaço antes do texto */
+  }
+
+  .print-spell-card .class-tag {
+    font-size: 0.8em;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background-color: #eee;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+
+  .print-spell-card .text-section {
+    margin-top: 10px;
+    font-size: 0.85em;
+    line-height: 1.4;
+    flex-grow: 1; /* Permite que o texto ocupe o espaço restante */
+  }
+
+  .print-spell-card .text-section p {
+    margin-bottom: 5px;
+  }
+
+  /* Cores das classes (se quiser manter visuais na impressão) */
+  .Artífice {
+    background-color: #dbe4ee;
+  }
+  .Bardo {
+    background-color: #f7e2f5;
+  }
+  .Bruxo {
+    background-color: #e5d8ea;
+  }
+  .Druida {
+    background-color: #daebd1;
+  }
+  .Feiticeiro {
+    background-color: #fce4e4;
+  }
+  .Mago {
+    background-color: #d1e2f3;
+  }
+  .Lutador {
+    background-color: #faebd2;
+  }
+  .Ladino {
+    background-color: #d8e2f3;
+  }
+  .Paladino {
+    background-color: #fcf4d1;
+  }
+  .Patrulheiro {
+    background-color: #dffbe1;
+  }
+  .Clérigo {
+    background-color: #fae2d6;
+  }
+
+  /* Ocultar quaisquer outros elementos que não queremos imprimir */
+  /* Ex: Se tivesse botões específicos dentro da carta que não são para impressão */
+  .toggle-details-btn,
+  .add-to-grimoire-btn {
+    display: none;
+  }
+}

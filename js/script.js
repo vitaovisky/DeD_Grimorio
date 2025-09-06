@@ -173,7 +173,16 @@ function filterSpells() {
 function addSpellToGrimoire(spellName) {
   const spell = allSpells.find((s) => s.name === spellName);
   if (spell && !grimoireSpells.some((s) => s.name === spellName)) {
+    // 1. Adiciona a magia ao grimório
     grimoireSpells.push(spell);
+
+    // 2. Remove a magia da lista principal (allSpells)
+    allSpells = allSpells.filter((s) => s.name !== spellName);
+
+    // 3. Atualiza a visualização da lista principal para mostrar a mudança
+    // Re-aplica os filtros atuais para renderizar a lista
+    filterSpells();
+
     alert(
       `Magia "${spellName}" adicionada ao grimório! Lembre-se de salvar para persistir.`
     );
@@ -181,8 +190,28 @@ function addSpellToGrimoire(spellName) {
 }
 
 function removeSpellFromGrimoire(spellName) {
+  // Encontra a magia que está sendo removida
+  const spell =
+    allSpells.find((s) => s.name === spellName) ||
+    grimoireSpells.find((s) => s.name === spellName);
+
+  // 1. Remove a magia da lista do grimório
   grimoireSpells = grimoireSpells.filter((s) => s.name !== spellName);
+
+  // 2. Adiciona a magia de volta à lista principal
+  if (spell && !allSpells.some((s) => s.name === spellName)) {
+    allSpells.push(spell);
+
+    // Re-ordena a lista principal para manter a ordem alfabética
+    allSpells.sort((a, b) => a.name.localeCompare(b.name));
+  }
+
+  // 3. Atualiza a visualização da lista do grimório (para refletir a remoção)
   renderSpells("grimoireContainer", grimoireSpells, true);
+
+  // 4. Atualiza a visualização da lista principal (para refletir a adição)
+  filterSpells();
+
   alert(
     `Magia "${spellName}" removida do grimório! Lembre-se de salvar para persistir.`
   );
@@ -304,5 +333,25 @@ if (loadEverything()) {
 }
 
 document.getElementById("printGrimoireBtn").addEventListener("click", () => {
-  window.print();
+  // Salva as informações do personagem e as magias do grimório no localStorage
+  // com chaves temporárias para a página de impressão
+  const characterInfo = {
+    name: document.getElementById("charName").value,
+    level: document.getElementById("charLevel").value,
+    race: document.getElementById("charRace").value,
+    class: document.getElementById("charClass").value,
+  };
+  localStorage.setItem("PRINT_CHARACTER_INFO", JSON.stringify(characterInfo));
+  localStorage.setItem("PRINT_GRIMOIRE_SPELLS", JSON.stringify(grimoireSpells));
+
+  // Abre a nova página de impressão
+  const printWindow = window.open("./print_page.html", "_blank");
+
+  // Opcional: limpar o localStorage após a janela fechar (ou quando for impressa)
+  if (printWindow) {
+    printWindow.onafterprint = () => {
+      localStorage.removeItem("PRINT_CHARACTER_INFO");
+      localStorage.removeItem("PRINT_GRIMOIRE_SPELLS");
+    };
+  }
 });
