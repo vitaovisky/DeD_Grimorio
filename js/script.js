@@ -181,48 +181,29 @@ function filterSpells() {
 function addSpellToGrimoire(spellName) {
   const spell = allSpells.find((s) => s.name === spellName);
   if (spell && !grimoireSpells.some((s) => s.name === spellName)) {
-    // 1. Adiciona a magia ao grimório
     grimoireSpells.push(spell);
-
-    // 2. Remove a magia da lista principal (allSpells)
     allSpells = allSpells.filter((s) => s.name !== spellName);
-
-    // 3. Atualiza a visualização da lista principal para mostrar a mudança
-    // Re-aplica os filtros atuais para renderizar a lista
     filterSpells();
 
-    alert(
-      `Magia "${spellName}" adicionada ao grimório! Lembre-se de salvar para persistir.`
-    );
+    // Substitua o alert() por showNotification()
+    showNotification(`Magia "${spellName}" adicionada ao grimório!`);
   }
 }
 
 function removeSpellFromGrimoire(spellName) {
-  // Encontra a magia que está sendo removida
   const spell =
     allSpells.find((s) => s.name === spellName) ||
     grimoireSpells.find((s) => s.name === spellName);
-
-  // 1. Remove a magia da lista do grimório
   grimoireSpells = grimoireSpells.filter((s) => s.name !== spellName);
-
-  // 2. Adiciona a magia de volta à lista principal
   if (spell && !allSpells.some((s) => s.name === spellName)) {
     allSpells.push(spell);
-
-    // Re-ordena a lista principal para manter a ordem alfabética
     allSpells.sort((a, b) => a.name.localeCompare(b.name));
   }
-
-  // 3. Atualiza a visualização da lista do grimório (para refletir a remoção)
   renderSpells("grimoireContainer", grimoireSpells, true);
-
-  // 4. Atualiza a visualização da lista principal (para refletir a adição)
   filterSpells();
 
-  alert(
-    `Magia "${spellName}" removida do grimório! Lembre-se de salvar para persistir.`
-  );
+  // Substitua o alert() por showNotification()
+  showNotification(`Magia "${spellName}" removida do grimório!`);
 }
 
 function saveEverything() {
@@ -363,3 +344,28 @@ document.getElementById("printGrimoireBtn").addEventListener("click", () => {
     };
   }
 });
+
+// Função para exibir um popup de notificação temporário
+function showNotification(message, duration = 2000) {
+  // 1. Cria o elemento div para a notificação
+  const notification = document.createElement("div");
+  notification.className = "notification-popup";
+  notification.textContent = message;
+
+  // 2. Adiciona o popup ao corpo do documento
+  document.body.appendChild(notification);
+
+  // 3. Aplica o estilo de entrada (fadeIn)
+  setTimeout(() => {
+    notification.classList.add("visible");
+  }, 10); // Pequeno atraso para a transição funcionar
+
+  // 4. Agenda a remoção do popup após a duração especificada
+  setTimeout(() => {
+    notification.classList.remove("visible");
+    // Remove o elemento do DOM após a transição de saída
+    notification.addEventListener("transitionend", () => {
+      notification.remove();
+    });
+  }, duration);
+}
