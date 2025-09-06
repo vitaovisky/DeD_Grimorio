@@ -22,7 +22,7 @@ h1 {
 }
 
 .nome {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .nivel-nome {
@@ -40,7 +40,7 @@ h1 {
 }
 
 .escola {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 .duration {
   font-size: 0.6rem;
@@ -353,4 +353,36 @@ input:checked + .slider {
 
 input:checked + .slider:before {
   transform: translateX(24px);
+}
+
+/* ----------------------------------------
+ * ESTILOS RESPONSIVOS PARA CELULARES
+ * ---------------------------------------- */
+@media (max-width: 768px) {
+  /* Ajusta o espaçamento geral da página */
+  body {
+    padding: 10px;
+  }
+
+  /* Muda o layout de grade para uma coluna */
+  .character-info,
+  .filter-form,
+  .cards-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  /* Oculta o seletor de tema em telas menores para otimizar o espaço */
+  .theme-toggle-container {
+    position: static;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  /* Ajusta a largura total para os botões de ação */
+  .save-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }

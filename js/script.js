@@ -68,13 +68,14 @@ function renderSpells(containerId, spells, isGrimoireTab) {
         <div class="field tempo-conjuracao"><strong>Tempo de Conjuração:</strong> ${
           spell.time
         }</div>
+        <div class="field alcance"><strong>Alcance:</strong> ${
+          spell.range
+        }</div>
         <div class="field nome-classes"><strong>Classes:</strong> <div class="classes">${classTags}</div></div>
         
         <div class="details hidden">
           
-          <div class="field alcance"><strong>Alcance:</strong> ${
-            spell.range
-          }</div>
+          
           <div class="field"><strong>Componentes:</strong> ${
             spell.components
           }</div>
