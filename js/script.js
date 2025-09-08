@@ -48,14 +48,19 @@ function renderSpells(containerId, spells, isGrimoireTab) {
       })
       .join(" ");
 
-    const buttonText = isGrimoireTab
+    // Novo: Define o ícone e a classe com base na aba
+    const actionIcon = isGrimoireTab ? "&#xe14c;" : "&#xe145;"; // '-' ou '+'
+    const actionClass = isGrimoireTab
+      ? "remove-from-grimoire-icon"
+      : "add-to-grimoire-icon";
+    const actionTooltip = isGrimoireTab
       ? "Remover do Grimório"
       : "Adicionar ao Grimório";
-    const buttonClass = isGrimoireTab
-      ? "add-to-grimoire-btn remove"
-      : "add-to-grimoire-btn";
 
     card.innerHTML = `
+    <div class="material-icons action-icon ${actionClass}" data-spell-name="${
+      spell.name
+    }" title="${actionTooltip}">${actionIcon}</div>
         <div class="field fonte"><strong>Fonte:</strong> ${spell.fonte}</div>
         <h2 class="nome">${spell.name}</h2>
         <div class="field nivel-nome"><strong>Nível:</strong> <div class="nivel">${
@@ -76,7 +81,7 @@ function renderSpells(containerId, spells, isGrimoireTab) {
         <div class="details hidden">
           
           
-          <div class="field"><strong>Componentes:</strong> ${
+          <div class="field componente"><strong>Componentes:</strong> ${
             spell.components
           }</div>
           <div class="text-section">${spell.text
@@ -85,14 +90,11 @@ function renderSpells(containerId, spells, isGrimoireTab) {
         </div>
 
         <button class="toggle-details-btn">Ver Mais</button>
-        <button class="${buttonClass}" data-spell-name="${
-      spell.name
-    }">${buttonText}</button>
-    `;
+        `;
     container.appendChild(card);
   });
 
-  // Adiciona os event listeners para o novo botão
+  // Event listeners para o botão de detalhes (Ver Mais/Menos)
   container.querySelectorAll(".toggle-details-btn").forEach((button) => {
     button.addEventListener("click", (e) => {
       const details = e.target.closest(".card").querySelector(".details");
@@ -103,12 +105,13 @@ function renderSpells(containerId, spells, isGrimoireTab) {
     });
   });
 
-  container.querySelectorAll(".add-to-grimoire-btn").forEach((button) => {
-    button.addEventListener("click", (e) => {
+  // NOVO: Event listeners para os ícones de adicionar/remover
+  container.querySelectorAll(".action-icon").forEach((icon) => {
+    icon.addEventListener("click", (e) => {
       const spellName = e.target.dataset.spellName;
-      if (isGrimoireTab) {
+      if (e.target.classList.contains("remove-from-grimoire-icon")) {
         removeSpellFromGrimoire(spellName);
-      } else {
+      } else if (e.target.classList.contains("add-to-grimoire-icon")) {
         addSpellToGrimoire(spellName);
       }
     });

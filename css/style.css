@@ -43,7 +43,8 @@ h1 {
 .tempo-conjuracao,
 .alcance,
 .duration,
-.escola {
+.escola,
+.componente {
   font-size: 0.9rem;
 }
 
@@ -400,4 +401,91 @@ input:checked + .slider:before {
 .notification-popup.visible {
   opacity: 1;
   visibility: visible;
+}
+
+/* Remova ou comente este bloco do seu style.css: */
+/*
+.add-to-grimoire-btn {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2ecc71;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-grimoire-btn.remove {
+  background-color: #e74c3c;
+}
+
+.add-to-grimoire-btn:hover {
+  opacity: 0.9;
+}
+*/
+
+/* ----------------------------------------
+ * ESTILOS DOS ÍCONES DE AÇÃO NO CARD
+ * ---------------------------------------- */
+.card {
+  position: relative; /* Essencial para o posicionamento absoluto do ícone */
+  /* ... (resto dos estilos do .card) ... */
+}
+
+.action-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 28px; /* Tamanho maior para o ícone */
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+  border-radius: 50%; /* Transforma em círculo */
+  width: 38px; /* Largura do círculo */
+  height: 38px; /* Altura do círculo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10; /* Garante que o ícone fique acima do conteúdo do card */
+}
+
+/* Estilo para o ícone de adicionar (+) */
+.add-to-grimoire-icon {
+  color: #2ecc71; /* Verde */
+}
+
+.add-to-grimoire-icon:hover {
+  background-color: #2ecc71;
+  color: white;
+}
+
+/* Estilo para o ícone de remover (-) */
+.remove-from-grimoire-icon {
+  color: #e74c3c; /* Vermelho */
+}
+
+.remove-from-grimoire-icon:hover {
+  background-color: #e74c3c;
+  color: white;
+}
+
+/* MODO NOTURNO para os ícones */
+.dark-mode .action-icon {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #f4f4f4; /* Cor do ícone no dark mode */
+}
+
+.dark-mode .add-to-grimoire-icon:hover {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.dark-mode .remove-from-grimoire-icon:hover {
+  background-color: #e74c3c;
+  color: white;
 }
